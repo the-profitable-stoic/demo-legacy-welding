@@ -1,0 +1,512 @@
+{
+  "business": {
+    "name": "Legacy Welding",
+    "phone": "555-wel-rq12",
+    "category": "welding",
+    "city": "Detroit",
+    "state": "MI"
+  },
+  "design": {
+    "preset": {
+      "id": "welding-heritage-craft",
+      "categoryGroup": "welding",
+      "name": "Heritage Craft",
+      "recipeFile": "welding/heritage-craft.astro",
+      "colors": {
+        "primary": "#6B7280",
+        "primaryDark": "#40444d",
+        "primaryLight": "#cbced3",
+        "secondary": "#5b616d",
+        "accent": "#6B7280",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#5b616d",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "welding/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Detroit's Trusted Welding Experts",
+      "heroSubline": "Precision welding for homes and businesses across Metro Detroit. Built to last through Michigan winters and beyond.",
+      "aboutTitle": "Built on Detroit Pride",
+      "aboutText": [
+        "Legacy Welding started in 2012 when founder Mike Kowalski saw Detroit's infrastructure needed welders who understood local conditions. What began as one truck is now a 20-person crew serving Wayne, Oakland, and Washtenaw counties.",
+        "We weld like Detroiters build - with grit, precision, and no shortcuts. Every joint is inspected, every material matched to Michigan's freeze-thaw cycles and corrosive winters.",
+        "From Corktown lofts to Rochester Hills subdivisions, we're invested in this community. Our team lives here, our kids go to school here, and we stand behind every weld."
+      ],
+      "valueProps": [
+        {
+          "title": "Michigan-Proven Methods",
+          "description": "Our techniques account for lake-effect snow loads, road salt corrosion, and temperature swings from -10°F to 90°F."
+        },
+        {
+          "title": "Right Materials",
+          "description": "We specify alloys and coatings that withstand Detroit's harsh winters without premature failure."
+        },
+        {
+          "title": "No Callback Guarantee",
+          "description": "If our weld fails under normal conditions within 5 years, we'll repair it at no cost."
+        },
+        {
+          "title": "Same-Day Emergency",
+          "description": "When a critical structural weld fails in January, we'll be there within 24 hours."
+        }
+      ],
+      "ctaHeadline": "Need a Welder Who Gets Detroit?",
+      "ctaSubline": "Call 555-WEL-RQ12 for immediate service or a free project estimate."
+    },
+    "services": [
+      {
+        "slug": "structural-steel-repair",
+        "name": "Structural Steel Repair",
+        "shortDescription": "Restore compromised steel beams, columns, and connections in Detroit-area buildings.",
+        "description": "Michigan winters take a brutal toll on structural steel. Between road salt corrosion and freeze-thaw cycles, we see failing connections in everything from Corktown warehouses to Troy office buildings.\n\nOur process starts with abrasive blasting to remove all rust, followed by ultrasonic thickness testing. We then reinforce with high-strength steel plates welded using low-hydrogen electrodes to prevent cold cracking. Final coatings include zinc-rich primers and industrial urethanes matched to your building's existing systems.\n\nCommon projects include: repairing cracked beam-to-column connections in Midtown lofts, reinforcing sagging garage headers in Royal Oak bungalows, and replacing corroded steel lintels above brick facades.",
+        "process": [
+          "Step 1: Inspect with magnetic particle testing to identify hidden cracks",
+          "Step 2: Shore up loads with temporary supports if needed",
+          "Step 3: Weld reinforcement plates using preheat when temps are below 40°F",
+          "Step 4: Apply corrosion-resistant finish matching existing surfaces"
+        ],
+        "benefits": [
+          "Prevents catastrophic structural failures during heavy snow loads",
+          "Extends service life 15+ years with proper corrosion protection",
+          "Meets Michigan building code requirements for seismic retrofits",
+          "Minimizes business downtime with phased repair scheduling"
+        ],
+        "faq": [
+          {
+            "question": "How do you prevent weld failure in freezing temps?",
+            "answer": "We preheat base metals to 150°F minimum and use low-hydrogen electrodes stored in heated quivers. Post-weld, we wrap joints in insulating blankets for slow cooling."
+          },
+          {
+            "question": "Can you match historic steel profiles?",
+            "answer": "Yes - our metal shop rolls custom steel shapes to replicate original early 20th century structural elements in Detroit's historic districts."
+          }
+        ]
+      },
+      {
+        "slug": "residential-metal-fabrication",
+        "name": "Residential Metal Fabrication",
+        "shortDescription": "Custom wrought iron, steel, and aluminum features for Metro Detroit homes.",
+        "description": "From Palmer Woods estates to Ann Arbor student housing, we fabricate metal features that stand up to Michigan's climate.\n\nOur shop crafts everything from frost-resistant balcony railings to snow-load-rated pergolas using 11-gauge steel or 6061-T6 aluminum. For historic districts like Indian Village, we replicate original wrought iron patterns while upgrading to modern corrosion-resistant finishes.\n\nRecent projects include: Lake-effect-snow-rated steel carports in Rochester Hills, salt-resistant aluminum stair systems for lakefront homes, and freeze-thaw-stable steel planter boxes for Midtown condos.\n\nAll residential work includes hidden drainage channels to prevent ice dam formation and concealed fasteners that won't stain brick or stone.",
+        "process": [
+          "Step 1: Site measurements with 3D scanning for precision fits",
+          "Step 2: CAD design showing snow load calculations",
+          "Step 3: Fabrication using press brakes and CNC plasma cutting",
+          "Step 4: Installation with expansion joints for seasonal movement"
+        ],
+        "benefits": [
+          "Materials selected for minimal winter thermal bridging",
+          "Hidden fasteners prevent brick spalling damage",
+          "Drainage channels eliminate ice buildup",
+          "Powder coating lasts 3x longer than standard paint"
+        ],
+        "faq": [
+          {
+            "question": "Do your railings meet Michigan building codes?",
+            "answer": "All guardrails are built to withstand 200 lb concentrated loads per Detroit residential code, with baluster spacing that prevents child entrapment."
+          },
+          {
+            "question": "How long does powder coating last?",
+            "answer": "Our 3-stage coating system typically lasts 15+ years even with road salt exposure, compared to 5 years for standard paint."
+          }
+        ]
+      },
+      {
+        "slug": "commercial-welding",
+        "name": "Commercial Welding",
+        "shortDescription": "Code-compliant welding for Detroit-area businesses and institutions.",
+        "description": "When your business needs welding that inspectors approve without hesitation, our certified welders deliver.\n\nWe specialize in Michigan-specific commercial solutions: salt-resistant stainless steel handrails for DIA visitors, snow-load-rated steel canopies for Belle Isle pavilions, and vibration-resistant welds for manufacturing plants along I-94.\n\nOur team holds AWS D1.1 and D1.5 certifications for structural and bridge welding. We maintain strict procedures for weld sequencing on sensitive projects like hospital renovations or data center upgrades.\n\nEvery commercial project includes: certified welder testing reports, as-built drawings for facilities teams, and coordination with your fire suppression system during hot work.",
+        "process": [
+          "Step 1: Review Michigan building code requirements for your occupancy type",
+          "Step 2: Perform mock-up welds for client/inspector approval",
+          "Step 3: Implement phased welding to control distortion",
+          "Step 4: Provide certified welder continuity records"
+        ],
+        "benefits": [
+          "Minimizes business interruption with night/weekend work",
+          "Welder certifications available for client records",
+          "Seismic detailing for critical facilities",
+          "Vibration control during sensitive operations"
+        ],
+        "faq": [
+          {
+            "question": "Can you weld during winter months?",
+            "answer": "Yes - we erect temporary enclosures with heaters to maintain proper welding temperatures even in January."
+          },
+          {
+            "question": "Do you carry insurance for sensitive sites?",
+            "answer": "Our $5M umbrella policy meets requirements for schools, hospitals, and government facilities."
+          }
+        ]
+      },
+      {
+        "slug": "historic-restoration",
+        "name": "Historic Restoration Welding",
+        "shortDescription": "Preservation-grade metalwork for Detroit's architectural treasures.",
+        "description": "Corktown's iron facades and Midtown's steel windows demand welders who respect historic fabric while making lasting repairs.\n\nWe're one of few Detroit shops approved for historic district work, using period-appropriate techniques like forge welding on pre-1920s ironwork. Our team consults preservation architects to match original profiles while upgrading hidden structural elements.\n\nRecent projects include: repairing 1890s cast iron columns using bronze welding rods, replicating missing wrought iron balcony elements with hand-forged steel, and stabilizing Art Deco steel windows with concealed stainless steel reinforcement.\n\nAll work complies with National Park Service standards for historic preservation and qualifies for Michigan historic tax credits.",
+        "process": [
+          "Step 1: Historic materials analysis (often including metallurgy testing)",
+          "Step 2: Documentation with photogrammetry before disassembly",
+          "Step 3: In-situ repairs when possible to preserve patina",
+          "Step 4: Reassembly using reversible mechanical connections"
+        ],
+        "benefits": [
+          "Maintains eligibility for historic tax credits",
+          "Preserves original material whenever possible",
+          "Reversible methods allow future conservation",
+          "Meets strict historic district commission requirements"
+        ],
+        "faq": [
+          {
+            "question": "Can you match old wrought iron finishes?",
+            "answer": "We use traditional linseed oil paints and hand-rubbed wax patinas to replicate original appearances without modern coatings."
+          },
+          {
+            "question": "Do you work with preservation architects?",
+            "answer": "Yes - we regularly collaborate with firms like Quinn Evans on Detroit landmark projects."
+          }
+        ]
+      },
+      {
+        "slug": "emergency-welding",
+        "name": "Emergency Welding Services",
+        "shortDescription": "24/7 response when critical welds fail in Metro Detroit.",
+        "description": "When a snow-laden fire escape pulls loose or a salt-weakened beam threatens collapse, we're Detroit's go-to emergency welders.\n\nOur rapid response trucks carry everything needed for winter field repairs: portable preheaters for subzero temps, structural epoxy for immediate load transfer, and temporary shoring systems. We've stabilized everything from broken water main supports to damaged bridge bearings during polar vortex events.\n\nThe process starts with a safety assessment - we won't put workers at risk. Then we implement temporary stabilization until permanent repairs can be scheduled. All emergency work includes follow-up inspections after temperature extremes to verify integrity.\n\nAvailable 365 days/year with average 4-hour response times in Wayne, Oakland, and Washtenaw counties.",
+        "process": [
+          "Step 1: Immediate hazard assessment and temporary stabilization",
+          "Step 2: Engineering consultation if structural calculations are needed",
+          "Step 3: Field welding with climate-appropriate procedures",
+          "Step 4: Follow-up inspection after extreme weather events"
+        ],
+        "benefits": [
+          "Prevents secondary damage from structural failures",
+          "Meets OSHA requirements for emergency repairs",
+          "Cold-weather certified welders",
+          "Coordination with local building officials"
+        ],
+        "faq": [
+          {
+            "question": "What's your winter response capability?",
+            "answer": "Our trucks carry portable shelters, diesel heaters, and cold-weather welding gear for repairs down to -20°F wind chill."
+          },
+          {
+            "question": "Do you handle insurance claims?",
+            "answer": "We provide detailed documentation and photos to support your property damage claims."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "James R.",
+        "rating": 5,
+        "service": "Structural Steel Repair",
+        "text": "Legacy saved our Palmer Woods carriage house when inspection revealed corroded beam connections. They matched the original 1920s steel profile perfectly and their zinc coating system looks like it'll last another century. The crew even worked weekends to finish before our daughter's wedding.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Detroit Historical Society",
+        "rating": 5,
+        "service": "Historic Restoration",
+        "text": "Their work on the 1890s iron fence at Elmwood Cemetery was museum-quality. They documented every original joint before disassembly and used period-correct forge welding techniques. Five years later with Michigan winters, the repairs still look pristine.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Troy Medical Center",
+        "rating": 5,
+        "service": "Commercial Welding",
+        "text": "When we needed OR suite modifications, Legacy's certified welders followed strict infection control protocols. Their stainless steel work passed joint inspections on first attempt, avoiding costly delays. Project manager kept us updated daily.",
+        "date": "2024-11-30"
+      },
+      {
+        "name": "Sarah K.",
+        "rating": 5,
+        "service": "Residential Metal Fabrication",
+        "text": "Our Rochester Hills lake house needed railings that could handle ice and kids. Legacy designed aluminum balusters with hidden drainage channels that don't ice up like our old steel ones. The powder coating matches our trim perfectly after two winters.",
+        "date": "2024-10-17"
+      },
+      {
+        "name": "Midtown Development Co.",
+        "rating": 5,
+        "service": "Emergency Welding",
+        "text": "At 3AM during last January's ice storm, a failed weld on our construction crane needed immediate repair. Legacy had a crew onsite within 90 minutes with proper cold-weather gear. Their temporary fix held until we could schedule permanent repairs.",
+        "date": "2024-09-05"
+      },
+      {
+        "name": "Ann Arbor Landlords Assoc.",
+        "rating": 5,
+        "service": "Structural Steel Repair",
+        "text": "Legacy reinforced 14 student housing balconies in one summer. Their engineered solution addressed rust jacking without requiring full replacement. Two years later with heavy use, zero callbacks - unheard of in this market.",
+        "date": "2024-08-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Detroit Welding Services | Legacy Welding",
+        "description": "Trusted welding contractor serving Detroit, Ann Arbor, and Troy. Structural repairs and custom metalwork built for Michigan winters."
+      },
+      "about": {
+        "title": "About Legacy Welding | Detroit Metal Experts",
+        "description": "Local welders with 12 years serving Metro Detroit. Specializing in Michigan-specific solutions for historic and modern structures."
+      },
+      "services": {
+        "title": "Welding Services Detroit | Residential & Commercial",
+        "description": "Complete welding solutions for Detroit homes and businesses. Structural repairs, custom fabrication, and emergency services."
+      },
+      "contact": {
+        "title": "Contact Detroit Welders | Legacy Welding",
+        "description": "Get a free estimate for your Metro Detroit welding project. Call 555-WEL-RQ12 for immediate service."
+      },
+      "reviews": {
+        "title": "Legacy Welding Reviews | Detroit Clients",
+        "description": "See why Detroit homeowners and businesses trust Legacy Welding for structural repairs and custom metalwork."
+      },
+      "service-areas": {
+        "title": "Welding Service Areas | Detroit Metro",
+        "description": "Serving Detroit, Ann Arbor, Troy, Royal Oak, and Rochester Hills with local welding expertise."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Ann Arbor",
+        "slug": "ann-arbor-mi",
+        "state": "MI",
+        "content": "Legacy Welding proudly serves the Ann Arbor community, providing expert welding services for residential and commercial projects. Known for its diverse housing styles, Ann Arbor's mix of historic and modern structures requires specialized welding solutions. Whether it's repairing wrought iron railings on classic homes or fabricating custom metalwork for new developments, our team delivers precision and durability.\n\nWith cold, snowy winters and lake-effect snow, Ann Arbor's climate demands welding work that can withstand harsh conditions. We specialize in weather-resistant welding techniques to ensure your metal structures remain strong and safe year-round. From university-area properties to downtown businesses, Legacy Welding is your trusted partner for all welding needs in Ann Arbor.",
+        "localContext": "Ann Arbor is home to the University of Michigan, featuring a mix of historic and modern architecture with a vibrant, diverse community.",
+        "nearbyAreas": [
+          "Ypsilanti",
+          "Saline",
+          "Dexter"
+        ]
+      },
+      {
+        "city": "Troy",
+        "slug": "troy-mi",
+        "state": "MI",
+        "content": "Legacy Welding offers top-tier welding services for Troy's distinctive suburban homes, including 1960s-70s ranch and Colonial styles. Our expertise in repairing and reinforcing metal components ensures these classic homes maintain their structural integrity. We also provide custom metal fabrication for modern upgrades, blending functionality with aesthetic appeal.\n\nTroy's cold winters and lake-effect snow require durable welding solutions. Our team is skilled in creating and maintaining metal structures that endure harsh weather, from fences and gates to garage door reinforcements. Trust Legacy Welding for reliable, high-quality service tailored to Troy's unique architectural needs.",
+        "localContext": "Troy is a thriving suburban community known for its well-preserved mid-century homes and strong local economy.",
+        "nearbyAreas": [
+          "Birmingham",
+          "Rochester Hills",
+          "Clawson"
+        ]
+      },
+      {
+        "city": "Royal Oak",
+        "slug": "royal-oak-mi",
+        "state": "MI",
+        "content": "Legacy Welding specializes in serving Royal Oak's charming 1920s-40s bungalows and Colonials, offering welding services that honor the city's historic character. Whether restoring original metalwork or adding modern touches, our team ensures precision and craftsmanship. We also cater to local businesses, providing custom metal fabrication for storefronts and signage.\n\nRoyal Oak's cold, snowy winters demand welding solutions that stand up to the elements. Our weather-resistant techniques protect your investments, from wrought iron fences to structural supports. With deep roots in the community, Legacy Welding is your go-to for all welding projects in Royal Oak.",
+        "localContext": "Royal Oak is a lively city with a rich architectural heritage and a bustling downtown scene.",
+        "nearbyAreas": [
+          "Ferndale",
+          "Berkley",
+          "Huntington Woods"
+        ]
+      },
+      {
+        "city": "Rochester Hills",
+        "slug": "rochester-hills-mi",
+        "state": "MI",
+        "content": "Legacy Welding is proud to serve Rochester Hills, providing expert welding services for its 1980s-90s suburban developments. Our team excels in both residential and commercial projects, from repairing metal railings to fabricating custom gates. We understand the unique needs of Rochester Hills' modern homes and deliver solutions that enhance both safety and curb appeal.\n\nWith cold winters and lake-effect snow, Rochester Hills requires welding work that can withstand extreme weather. Our durable, weather-resistant techniques ensure your metal structures remain secure and functional year-round. Trust Legacy Welding for reliable service tailored to Rochester Hills' suburban landscape.",
+        "localContext": "Rochester Hills is a family-friendly community known for its well-planned neighborhoods and excellent schools.",
+        "nearbyAreas": [
+          "Troy",
+          "Auburn Hills",
+          "Shelby Township"
+        ]
+      },
+      {
+        "city": "Livonia",
+        "slug": "livonia-mi",
+        "state": "MI",
+        "content": "Legacy Welding provides comprehensive welding services for Livonia's diverse residential and commercial properties. From mid-century homes to modern businesses, our team handles everything from small repairs to large-scale fabrication projects. We take pride in delivering high-quality work that meets the needs of Livonia's growing community.\n\nLivonia's cold winters and lake-effect snow make durable welding essential. Our expertise in weather-resistant techniques ensures your metal structures remain strong and reliable. Whether it's a residential fence or a commercial awning, Legacy Welding has you covered in Livonia.",
+        "localContext": "Livonia is a well-established suburb with a mix of residential and commercial properties, offering a quiet yet convenient lifestyle.",
+        "nearbyAreas": [
+          "Westland",
+          "Farmington Hills",
+          "Plymouth"
+        ]
+      },
+      {
+        "city": "Farmington Hills",
+        "slug": "farmington-hills-mi",
+        "state": "MI",
+        "content": "Legacy Welding serves Farmington Hills with expert welding solutions for its upscale homes and businesses. Our team specializes in custom metalwork, from elegant stair railings to robust structural supports. We understand the high standards of Farmington Hills' residents and deliver craftsmanship that exceeds expectations.\n\nFarmington Hills' cold winters and lake-effect snow require welding that can endure harsh conditions. Our weather-resistant techniques ensure longevity and performance. Whether for residential or commercial projects, Legacy Welding is the trusted choice in Farmington Hills.",
+        "localContext": "Farmington Hills is known for its affluent neighborhoods, excellent schools, and thriving business community.",
+        "nearbyAreas": [
+          "Novi",
+          "Livonia",
+          "West Bloomfield"
+        ]
+      },
+      {
+        "city": "West Bloomfield",
+        "slug": "west-bloomfield-mi",
+        "state": "MI",
+        "content": "Legacy Welding offers premium welding services for West Bloomfield's luxurious homes and estates. Our team excels in custom metal fabrication, creating everything from ornate gates to functional structural components. We cater to the high-end market, ensuring every project reflects the quality and sophistication of West Bloomfield.\n\nWith cold winters and lake-effect snow, West Bloomfield's climate demands durable welding solutions. Our weather-resistant techniques protect your investments, ensuring they remain beautiful and functional year-round. Trust Legacy Welding for exceptional service in West Bloomfield.",
+        "localContext": "West Bloomfield is an affluent community with sprawling estates, upscale shopping, and scenic lakes.",
+        "nearbyAreas": [
+          "Farmington Hills",
+          "Commerce Township",
+          "Orchard Lake"
+        ]
+      },
+      {
+        "city": "Novi",
+        "slug": "novi-mi",
+        "state": "MI",
+        "content": "Legacy Welding provides top-notch welding services for Novi's rapidly growing residential and commercial sectors. Our team handles everything from small repairs to large-scale fabrication, ensuring precision and durability. Novi's mix of modern homes and businesses requires versatile welding solutions, and we deliver with expertise.\n\nNovi's cold winters and lake-effect snow necessitate welding that can withstand harsh weather. Our weather-resistant techniques ensure your metal structures remain secure and functional. Whether for a home or business, Legacy Welding is Novi's trusted welding partner.",
+        "localContext": "Novi is a dynamic city with a strong economy, diverse population, and excellent amenities.",
+        "nearbyAreas": [
+          "Farmington Hills",
+          "Northville",
+          "Wixom"
+        ]
+      },
+      {
+        "city": "Northville",
+        "slug": "northville-mi",
+        "state": "MI",
+        "content": "Legacy Welding serves Northville's historic and modern properties with expert welding services. Our team specializes in preserving the charm of Northville's downtown while meeting the needs of its newer developments. From decorative ironwork to structural repairs, we deliver craftsmanship that honors Northville's unique character.\n\nNorthville's cold winters and lake-effect snow require durable welding solutions. Our weather-resistant techniques ensure your metalwork remains strong and attractive year-round. Trust Legacy Welding for reliable, high-quality service in Northville.",
+        "localContext": "Northville is a picturesque town with a historic downtown, upscale homes, and a strong sense of community.",
+        "nearbyAreas": [
+          "Novi",
+          "Plymouth",
+          "Livonia"
+        ]
+      },
+      {
+        "city": "Plymouth",
+        "slug": "plymouth-mi",
+        "state": "MI",
+        "content": "Legacy Welding is proud to serve Plymouth, offering expert welding services for its historic and contemporary properties. Our team excels in both restoration and new fabrication, ensuring every project meets Plymouth's high standards. Whether it's a vintage home or a modern business, we deliver precision and durability.\n\nPlymouth's cold winters and lake-effect snow demand welding that can endure harsh conditions. Our weather-resistant techniques protect your investments, ensuring they remain functional and attractive. Trust Legacy Welding for all your welding needs in Plymouth.",
+        "localContext": "Plymouth is a charming city with a vibrant downtown, historic homes, and a strong community spirit.",
+        "nearbyAreas": [
+          "Northville",
+          "Canton",
+          "Livonia"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "structural-steel-repair": "/images/service-structural-steel-repair.webp",
+      "residential-metal-fabrication": "/images/service-residential-metal-fabrication.webp",
+      "commercial-welding": "/images/service-commercial-welding.webp",
+      "historic-restoration": "/images/service-historic-restoration.webp",
+      "emergency-welding": "/images/service-emergency-welding.webp"
+    },
+    "servicesResponsive": {
+      "structural-steel-repair": {
+        "src": "/images/service-structural-steel-repair.webp",
+        "srcset": "/images/service-structural-steel-repair-400w.webp 400w, /images/service-structural-steel-repair-800w.webp 800w, /images/service-structural-steel-repair-1200w.webp 1200w, /images/service-structural-steel-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "residential-metal-fabrication": {
+        "src": "/images/service-residential-metal-fabrication.webp",
+        "srcset": "/images/service-residential-metal-fabrication-400w.webp 400w, /images/service-residential-metal-fabrication-800w.webp 800w, /images/service-residential-metal-fabrication-1200w.webp 1200w, /images/service-residential-metal-fabrication.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "commercial-welding": {
+        "src": "/images/service-commercial-welding.webp",
+        "srcset": "/images/service-commercial-welding-400w.webp 400w, /images/service-commercial-welding-800w.webp 800w, /images/service-commercial-welding-1200w.webp 1200w, /images/service-commercial-welding.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "historic-restoration": {
+        "src": "/images/service-historic-restoration.webp",
+        "srcset": "/images/service-historic-restoration-400w.webp 400w, /images/service-historic-restoration-800w.webp 800w, /images/service-historic-restoration-1200w.webp 1200w, /images/service-historic-restoration.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "emergency-welding": {
+        "src": "/images/service-emergency-welding.webp",
+        "srcset": "/images/service-emergency-welding-400w.webp 400w, /images/service-emergency-welding-800w.webp 800w, /images/service-emergency-welding-1200w.webp 1200w, /images/service-emergency-welding.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
